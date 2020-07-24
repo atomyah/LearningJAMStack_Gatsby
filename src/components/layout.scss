@@ -1,0 +1,26 @@
+/* bootswatchテーマ */
+@import "~bootswatch/dist/cosmo/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/cosmo/bootswatch";
+
+/* Googleフォント */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ページ共通CSS */
+.title-obi {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 0.5rem;
+  align-items: center;
+  display: flex;
+}
+.space {
+  max-width: 960px;
+  padding-top: 2rem;
+}
+.h1-font {
+  font-size: 1.2rem;
+}

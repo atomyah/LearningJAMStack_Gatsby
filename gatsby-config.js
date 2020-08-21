@@ -1,10 +1,27 @@
 module.exports = {
   siteMetadata: {
     title: `ヤー・スペーステクノロジー`,
-    description: `架空の会社`,
+    description: `【架空の会社】宇宙工学と意識エネルギー循環研究でオンリーワンを目指します`,
     author: `@atomyah`,
+    siteUrl: `https://yah-space.tech`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://yah-space.tech`,
+        stripQueryString: true,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt', // 追加
+      options: {
+        host: 'https://yah-space.tech',
+        sitemap: 'https://yah-space.tech/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

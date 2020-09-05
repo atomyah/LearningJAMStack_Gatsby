@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col xs={12} md={6} style={{maxWidth:`480px`}}>
         <Row>
-          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>インフォメーション</Col>
+          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>最新記事</Col>
         </Row>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Row>
@@ -32,13 +32,13 @@ const IndexPage = ({ data }) => (
       </Col>
       <Col xs={12} md={6} style={{maxWidth:`480px`}}>
         <Row>
-          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>IR情報</Col>
+          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>書いている人</Col>
         </Row>
         <Row>
-          <Col style={{padding:`0.5rem`}}>決算報告</Col>
+          <Col style={{padding:`0.5rem`}}>プロフィール</Col>
         </Row>
         <Row>
-          <Col style={{padding:`0.5rem`}}>社長挨拶（動画）</Col>
+          <Col style={{padding:`0.5rem`}}>SNS</Col>
         </Row>
         <Row>
           <Col style={{padding:`0.5rem`}}>広告スペース</Col>
@@ -49,7 +49,7 @@ const IndexPage = ({ data }) => (
       </Col>
     </Row>
     <Row>
-      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>事業内容</Col>
+      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>人気記事</Col>
     </Row>
     <Row>
       <Col style={{maxWidth:`960px`}}>

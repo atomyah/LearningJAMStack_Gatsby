@@ -24,9 +24,9 @@ const Layout = ({ children }) => {
         <Container className="justify-content-md-center">{children}</Container>
       </main>
       <footer className="footer mt-auto py-3 bg-light text-black text-center">
-        © {new Date().getFullYear()},
+        © 2020 - {new Date().getFullYear()},
         {` `}
-        Atom Yah (このサイトは書籍「JAMStackを学ぼう Gatsby+ReactBootstrap+Netlifyでつくる企業サイト」用のサンプルです)
+        バリキャリ夫婦雨宮のブログ All rights reserved.
       </footer>
     </>
   );

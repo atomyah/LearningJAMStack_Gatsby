@@ -5,13 +5,13 @@ import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="会社概要" />
+    <SEO title="プロフィール"/>
     <Row>
       <Col className="space"></Col>
     </Row>
     <Row>
       <Col className="title-obi">
-        <h1 className="h1-font">会社概要</h1>
+        <h1 className="h1-font">プロフィール</h1>
       </Col>
     </Row>
     <Row>
@@ -22,32 +22,24 @@ const AboutPage = () => (
         <Table striped bordered hover>
           <tbody>
             <tr>
-              <td>社名</td>
-              <td>ヤー・スペーステクノロジー合同会社</td>
+              <td>名前</td>
+              <td>雨宮夫婦（雨宮婦夫）</td>
             </tr>
             <tr>
-              <td>本社</td>
-              <td>123 Nirvana St. San Francisco, CA, USA 94103</td>
+              <td>住まい</td>
+              <td>地球上のどこか</td>
             </tr>
             <tr>
-              <td>設立</td>
-              <td>2123年1月2日</td>
+              <td>生年月日</td>
+              <td>アラサー</td>
             </tr>
             <tr>
-              <td>資本金</td>
-              <td>$200,000</td>
+              <td>所属</td>
+              <td>夫：時価総額10兆円越え日系企業／妻：GAFA</td>
             </tr>
             <tr>
-              <td>代表者</td>
-              <td>ヤー アトム</td>
-            </tr>
-            <tr>
-              <td>従業員</td>
-              <td>33名</td>
-            </tr>
-            <tr>
-              <td>売上高</td>
-              <td>$4,111,950（2131年12月決算）</td>
+              <td>得意分野</td>
+              <td>資産運用/語学(妻)/仕事/転職/婚活/筋トレ(夫)</td>
             </tr>
           </tbody>
         </Table>

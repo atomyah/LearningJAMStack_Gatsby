@@ -6,13 +6,13 @@ import SEO from "../components/seo";
 
 const InformationPage = ({ data }) => (
   <Layout>
-    <SEO title="インフォメーション" />
+    <SEO title="最新記事" />
     <Row>
       <Col className="space"></Col>
     </Row>
     <Row>
       <Col className="title-obi">
-        <h1 className="h1-font">インフォメーション</h1>
+        <h1 className="h1-font">最新記事</h1>
       </Col>
     </Row>
     <Row>

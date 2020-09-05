@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       <Nav className="mr-auto">
         <NavItem href="/about">
           <Nav.Link as={Link} activeClassName="active" to="/about">
-            Profile
+            プロフィール
           </Nav.Link>
         </NavItem>
         <NavItem href="/about">

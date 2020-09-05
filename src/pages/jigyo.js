@@ -8,13 +8,13 @@ import jigyo3Img from "../images/jigyo3.jpg"
 
 const JigyoPage = () => (
   <Layout>
-    <SEO title="事業内容" />
+    <SEO title="SNS" />
     <Row>
       <Col className="space"></Col>
     </Row>
     <Row>
       <Col className="title-obi">
-        <h1 className="h1-font">事業内容</h1>
+        <h1 className="h1-font">SNS</h1>
       </Col>
     </Row>
     <Row>

@@ -16,33 +16,33 @@ const IndexPage = () => (
     <Row>
       <Col xs={12} md={6} style={{border:`solid yellow`,maxWidth:`480px`}}>
         <Row>
-          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>インフォメーション</Col>
+          <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>最新記事</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>インフォメーション①</Col>
+          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>最新記事①</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>インフォメーション②</Col>
+          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>最新記事②</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>インフォメーション③</Col>
+          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>最新記事③</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>インフォメーション④</Col>
+          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>最新記事④</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>インフォメーション⑤</Col>
+          <Col style={{border:`solid 1px blue`,padding:`0.5rem`}}>最新記事⑤</Col>
         </Row>
       </Col>
       <Col xs={12} md={6} style={{border:`solid yellow`, maxWidth:`480px`}}>
         <Row>
-          <Col style={{backgroundColor:`cornflowerblue`, color:`white`,padding:`0.5rem`}}>IR情報</Col>
+          <Col style={{backgroundColor:`cornflowerblue`, color:`white`,padding:`0.5rem`}}>書いている人</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px brown`,padding:`0.5rem`}}>IR情報</Col>
+          <Col style={{border:`solid 1px brown`,padding:`0.5rem`}}>プロフィール</Col>
         </Row>
         <Row>
-          <Col style={{border:`solid 1px purple`,padding:`0.5rem`}}>社長ブログ</Col>
+          <Col style={{border:`solid 1px purple`,padding:`0.5rem`}}>SNS</Col>
         </Row>
         <Row>
           <Col style={{border:`solid 1px purple`,padding:`0.5rem`}}>広告スペース</Col>

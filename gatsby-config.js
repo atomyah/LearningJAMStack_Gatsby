@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `ヤー・スペーステクノロジー`,
-    description: `【架空の会社】宇宙工学と意識エネルギー循環研究でオンリーワンを目指します`,
-    author: `@atomyah`,
+    title: `バリキャリ夫婦雨宮のブログ`,
+    description: `パワーカップルの資産運用/語学/仕事/転職/婚活を発信`,
+    author: `@amamiya_couple`,
     siteUrl: `https://yah-space.tech`,
   },
   plugins: [

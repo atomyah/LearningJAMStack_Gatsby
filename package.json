@@ -19,7 +19,7 @@
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-remark-images": "^3.3.19",
     "gatsby-source-filesystem": "^2.2.2",
-    "gatsby-transformer-remark": "^2.8.25",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.4.3",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
